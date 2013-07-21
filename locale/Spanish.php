@@ -37,7 +37,4 @@ $locale['zl_con_des'] = "Descargas Enviadas";
 //Otra Información
 $locale['zl_con_miem'] = "Total De Miembros";
 $locale['zl_con_not'] = "Noticias";
-$locale['zl_con_m'] = "<font color='#FF0000'><b>Atención</b></font> Nuevo Panel: Conexión Panel 1.0<br />Usted podra descargar este panel en ".$settings['sitename']." Proximamente esperelo.";
-$locale['zl_con_v'] = "Validación En CSS3 (CSS Válido)";
-$locale['zl_con_e'] = "Registro De Errores <font color='#DFF2BF'><b>0</b></font>";
 ?>

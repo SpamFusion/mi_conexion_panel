@@ -149,14 +149,6 @@ echo"<div style='border-top: 0px solid #ccc; border-bottom: 1px solid #ccc; padd
 	echo "</div><br />\n";
 }
 
-echo"<div style='border-top: 0px solid #ccc; border-bottom: 1px solid #ccc; padding-top: 4px;  padding-bottom: 4px; margin-top: 5px; margin-bottom: 5px;'></div>\n";
-
-    echo "<div class='info'>".$locale['zl_con_m']."</div>\n";
-    echo "<div class='validacion'>".$locale['zl_con_v']."<br /><a href='http://jigsaw.w3.org/css-validator/check/referer'><img style='border:0;width:70px;height:31px' src='http://jigsaw.w3.org/css-validator/images/vcss' alt='¡CSS Válido!' /></a><a href='http://jigsaw.w3.org/css-validator/check/referer'><img style='border:0;width:88px;height:31px' src='http://jigsaw.w3.org/css-validator/images/vcss-blue' alt='¡CSS Válido!' /></a></div>";
-
-    echo "<div class='error'>".$locale['zl_con_e']."</div>";
-    echo "\n</div>\n";
-
 echo "\n</div>";
 closeside();
 require_once THEMES."templates/footer.php";

@@ -28,45 +28,6 @@ opentable($locale['zl_stats_titulo']);
 
 if (iMEMBER) {
 
-add_to_head("<style type='text/css'>
-body{
-font-family:Arial, Helvetica, sans-serif; 
-font-size:13px;
-}
-.info, .bien, .peligro, .error, .validacion {
-border: 1px solid;
-margin: 10px 0px;
-padding:15px 10px 15px 50px;
-background-repeat: no-repeat;
-background-position: 10px center;
-}
-.info {
-color: #00529B;
-background-color: #BDE5F8;
-background-image: url('images/Info.png');
-}
-.bien {
-color: #4F8A10;
-background-color: #DFF2BF;
-background-image:url('images/Bien.png');
-}
-.peligro {
-color: #9F6000;
-background-color: #FEEFB3;
-background-image: url('images/Peligro.png');
-}
-.error {
-color: #D8000C;
-background-color: #FFBABA;
-background-image: url('images/Error.png');
-}
-.validacion {
-color: #D63301;
-background-color: #FFCCBA;
-background-image: url('images/Infor.png');
-}
-</style>");
-
 echo "<div align='center'>";
 
 	echo "<img border='0'  src='".INFUSIONS."mi_conexion_panel/images/Stats.png'><br />";
